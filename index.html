@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="backgroundvid">
+        <video autoplay muted loop>
+            <source src="./assests/train_-_90408 (Original).mp4">
+        </video>
+    </div>
+    <div class="form">
+        <h1>LOGIN</h1>
+        <p class="errordisplay1"></p>
+        <form id="lform" action="">
+            <input class="uname" id="uname" type="email" placeholder="Username">
+            <input class="upass" id="upass" type="password" placeholder="Password">
+            <div class="animebox">
+                <div>
+                    <label class="container">
+                        <input type="checkbox" >
+                        <div class="checkmark"></div>
+                    </label>
+
+                </div>
+                <label for="checked">Remember me</label> 
+            </div>
+            <button type="submit" class="sbutton">LOGIN</button>
+            <a href="#" class="fpass">forgot password</a>
+            <section class="newregiter">
+                <p>Don't Have an Account?</p>
+                <a href="#" class="regnew">Register</a>
+            </section>
+        </form>
+    </div>
+    <div class="form2">
+        <h1>SIGN IN</h1>
+        <p class="errordisplay2"></p>
+        <form id="rform" action="">
+            <input type="password" id="npass" name="pass" placeholder=" password" id="password">
+            <input type="password" id="ncpass" name="cpass" placeholder="confirm password" id="cpassword">
+            <input type="email" name="pass2" id="nuser" placeholder="new user" id="nuser">
+            <button type="submit">REGISTER</button>
+            <p><a href="#" class="login">Login</a></p>
+        </form>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
